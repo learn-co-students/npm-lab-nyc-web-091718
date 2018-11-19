@@ -1,0 +1,32 @@
+{
+  "name": "npm-lab-nyc-web-091718",
+  "version": "1.0.0",
+  "description": "npm lab",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "learn-browser": "^0.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtang93/npm-lab-nyc-web-091718.git"
+  },
+  "keywords": [
+    "npm",
+    "json",
+    "lab",
+    "package"
+  ],
+  "author": "jt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtang93/npm-lab-nyc-web-091718/issues"
+  },
+  "homepage": "https://github.com/jtang93/npm-lab-nyc-web-091718#readme"
+}
