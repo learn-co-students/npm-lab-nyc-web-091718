@@ -1,0 +1,30 @@
+{
+  "name": "npm-lab-package",
+  "version": "1.0.0",
+  "description": "setting up initial package.json",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-klimowich/npm-lab-nyc-web-091718.git"
+  },
+  "keywords": [
+    "first",
+    "version"
+  ],
+  "author": "eric klimowich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-klimowich/npm-lab-nyc-web-091718/issues"
+  },
+  "homepage": "https://github.com/eric-klimowich/npm-lab-nyc-web-091718#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.23.0"
+  }
+}
